@@ -1,3 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#theme {
+  filter: invert(53%) sepia(100%) saturate(710%) hue-rotate(188deg)
+    brightness(100%) contrast(97%);
+}
+
+button:hover {
+  box-shadow: 8px 8px 0px #93c5fd;
+}
+
+button:active {
+  box-shadow: 8px 8px 0px #60a5fa;
+}
